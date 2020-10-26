@@ -1,0 +1,9 @@
+	- Null Safe : Null에 대해 안전함
+		○ Null: 존재하지 않는 상태, 모르는 상태
+		○ Null Safety 문법
+			§ ?: Null이 아니면 이하 구문 실행
+			§ !!: Null이 아님을 개발자가 보장한다.
+			§ button?.setOnClickLinstener( )
+		○ Null이 될 수 있는 타입
+			§ Int, Double, Float, Class : Null이 될 수 없는 타입
+			§ Int?, Double?, Float?, Class? : Null이 될 수 있는 타입

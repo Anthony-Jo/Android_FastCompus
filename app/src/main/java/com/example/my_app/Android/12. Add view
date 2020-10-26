@@ -1,0 +1,5 @@
+				□ Add view: 실제로 리스트 뷰를 그리기 위해서 잘 사용되지 않음
+					® Item을 담을 xml 생성
+					® Xml에 내용 추가
+					® Container view에 add
+					® 반복

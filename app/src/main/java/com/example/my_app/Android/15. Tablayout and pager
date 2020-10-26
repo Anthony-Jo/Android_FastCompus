@@ -1,0 +1,7 @@
+	- Tab Layout and pager
+		○ Pager
+			§ 메인화면을 넘겨주는 역할
+		○ Tablayout
+			§ 사이드(메뉴) 텝을 담담하는 역할
+		○ Adapter
+			§ 페이져와 텝레이아웃을 연결하는 역할

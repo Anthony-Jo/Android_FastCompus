@@ -1,0 +1,23 @@
+	- Network
+		○ 통신
+			§ DataBase <-> Server <-> Client (App, Web . . .)
+			§ Local DataBase의 한계
+				□ 동기화가 어려움
+				□ 상호작용 불가
+			§ DataBase	<->	Server	<->	Client
+			    글					       A
+			    댓글			           B
+
+			§ Server와 통신하는 법
+				□ 해당 URL로 요청
+				□ 인증 정보전송
+				□ JSON(JavaScirpt Object Notation) 형식
+					® JavaScirpt에서 Object 생성시 사용되는 표현식
+					® [ ] : List
+					® { } : Object
+					® "" : String (없으면 숫자)
+					® JSON Response
+					® JSON Parsing
+						◊ JSON을 코틀린/Jave가 이해 할수 있도록 변형
+						◊ Serializable(직렬화)
+							} Java System 내부에서 사용되는 Object를 외부에서 사용 할수 있도록 byte 형태로 데이터 형 변환

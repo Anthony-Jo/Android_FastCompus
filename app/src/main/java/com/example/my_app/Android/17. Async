@@ -1,0 +1,18 @@
+	- Async
+		○ 비동기방식
+			§ Thread를 만들어 멀티테스킹
+		○ Android에서 Async 사용하기
+			§ AsyncTask Class 상속
+				□ onPreExcute : 쓰레드가 출발전에 할 작업
+				□ onIntBackground : 쓰레드가 할 작업
+				□ onPregressUpdata : 작업 중간에 MainThread로 온다 (잘 안씀)
+				□ onPostExcute : 작업을 다 마친 후 MainThread로
+		○ Async 장점
+			§ Main Thread를 기다리게 할 필요 없음
+			§ Network 작업시 효율적
+	- Sync
+		○ 동기방식
+		○ 작업을 순서대로 진행
+			§ 위에서 아래로 실행
+
+

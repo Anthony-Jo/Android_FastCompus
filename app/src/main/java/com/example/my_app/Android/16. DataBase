@@ -1,0 +1,19 @@
+	- Data Base
+		○ Data를 저장
+			§ RDB(Relational Data Base, 관계형 데이터 베이스): 엑셀과 유사
+				□ 가장 많이 쓰인다
+			§ Key Value
+				□ 쌍으로 (Key and Value) 저장한다.
+			§ RDBMS(Relational Data Base Management System)
+				□ RDB를 관리하기 위한 Tool
+					® MySQL, Oracle, PostgreSQL
+			§ SQL
+				□ RDBMS를 Handle하기 위한 언어
+			§ NoSQL
+				□ 탈 SQL
+		○ Android Data Base
+			§ SQLiteDataBase
+			§ SharedPreference
+				□ 목적: 공유된 사용자의 기호 저장
+				□ Key-Value 방식
+				□ Hard하게 DB System구축 불가

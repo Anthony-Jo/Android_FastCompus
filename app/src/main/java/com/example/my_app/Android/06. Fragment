@@ -1,0 +1,14 @@
+	- Fragment : 엑티비티의 파트를 나누어 책임진다.
+		○ Activity: app에 보이는 한 화면의 단위 (정확하지는 않음)
+			§ Example: part 1, part 2, . . . . . , part n
+				□ 엑티비티가 길어져서 많은 파트를 관리하려면 어려워짐
+				□ 안드로이드 디바이스 종류가 매우 다양함(기종, 모바일, 테블릿)
+		○ 특징
+			§ 라이프 사이클이 존재
+			§ 엑티비티에 종속적
+		○ 사용방법
+			§ XML ViewComponent로 추가한다
+			§ Code(동적)로 추가한다
+		○ 데이터 전달 방법
+			§ Activity -> Fragment : argument and bundle
+			§ Fragment -> Activity: 자체 구현 필요함(리스너 구현)
