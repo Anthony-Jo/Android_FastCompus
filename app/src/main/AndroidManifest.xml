@@ -3,6 +3,7 @@
     package="com.example.my_app">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -10,17 +11,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/MyTheme">
-        <activity android:name=".NetworkActivity">
+        android:theme="@style/MyTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PermissionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AsyncActivity">
-        </activity>
-        <activity android:name=".RealmActivity"></activity>
+        <activity android:name=".RetrofitActivity"></activity>
+        <activity android:name=".NetworkActivity"></activity>
+        <activity android:name=".AsyncActivity" />
+        <activity android:name=".RealmActivity" />
         <activity android:name=".SharedPreference" />
         <activity android:name=".A04_02_Internet" />
         <activity android:name=".A04_01_calculator" />
