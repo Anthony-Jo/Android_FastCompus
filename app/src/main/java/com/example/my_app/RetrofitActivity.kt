@@ -66,9 +66,9 @@ class RetrofitActivity : AppCompatActivity() {
                 }
             }
         })
-        */
+*/
         val person = PersonFromServer(name = "Mr.Kim", age = 30, intro = "Hello i am kim")
-        service.createStudentsEasy(person).enqueue(object : Callback<PersonFromServer>{
+        service.createStudentsEasy(person).enqueue(object : Callback<PersonFromServer> {
             override fun onFailure(call: Call<PersonFromServer>, t: Throwable) {
             }
 
